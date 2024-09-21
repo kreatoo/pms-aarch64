@@ -57,7 +57,7 @@ COPY root/ /
 
 # Save version and install
 ARG PLEX_DISTRO=debian
-ARG TAG=beta
+ARG TAG=stable
 ARG URL=
 RUN /installBinary.sh
 
